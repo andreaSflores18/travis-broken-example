@@ -1,6 +1,4 @@
 language: php
 php:
   - 5.5
-  - 5.4
-  - hhvm
-script: phpunit TestFolder/Test1.php && php TestFolder/Test2.php
+script: phpunit TestFolder/Test1.php
