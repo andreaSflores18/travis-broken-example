@@ -1,6 +1,6 @@
 language: php
 php:
   - 5.5
-  - 5.4
-  - hhvm
-script: phpunit /TestFolder
+env:
+  - TEST_DIR = TestFolder
+script: cd $TEST_DIR
